@@ -15,8 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/fibonacci', function () {
+Route::get('home/fibonacci', function () {
     return view('fibonacci');
+});
+
+Route::get('home/prima', function () {
+    return view('prima');
 });
 
 Auth::routes();

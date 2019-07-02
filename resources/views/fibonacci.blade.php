@@ -15,13 +15,13 @@
                     @endif
                     <?php
                     // siapkan 2 angka awal
-                    $angka_sebelumnya=0;
-                    $angka_sekarang=1;
+                    $angka_sebelumnya=9;
+                    $angka_sekarang=19;
 
                     //tampilkan 2 angka awal
                     echo "$angka_sebelumnya $angka_sekarang";
 
-                    for ($i=0; $i<10; $i++)
+                    for ($i=0; $i<=10; $i++)
                     {
                       // hitung angka yang akan ditampilkan
                       $output = $angka_sekarang + $angka_sebelumnya;

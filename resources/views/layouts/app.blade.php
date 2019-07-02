@@ -63,6 +63,8 @@
                                     </form>
                                 </div>
                             </li>
+                            <li><a class="nav-link" href="{{ url('home/prima') }}">{{ __('Prima') }}</a></li>
+                            <li><a class="nav-link" href="{{ url('home/fibonacci') }}">{{ __('Fibonacci') }}</a></li>                            
                         @endguest
                     </ul>
                 </div>
@@ -73,7 +75,7 @@
             @yield('content')
         </main>
     </div>
-    
+
     <!-- jQuery -->
     <script src="//code.jquery.com/jquery.js"></script>
     <!-- DataTables -->
