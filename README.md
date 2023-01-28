@@ -1,4 +1,4 @@
-Simple CRUD buku tamu dengan Laravel dan Mysql
+Simple CRUD guest house using Laravel and Mysql
 <p align="center"><img height="400px" src="https://github.com/perdianto27/buku-tamu-laracrud/blob/master/sc.png"></p>
 
 # Tech:
